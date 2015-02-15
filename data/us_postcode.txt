@@ -1,0 +1,4 @@
+The US postal code data was taken from the Nominatim sources:
+
+https://github.com/twain47/Nominatim/blob/master/data/us_postcode.sql
+
