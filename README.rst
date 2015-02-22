@@ -32,6 +32,24 @@ Usage
 
     print "radius: %d, zip-codes: %d" % (radius, len(results))
 
+Unit Tests
+----------
+
+.. code-block:: shell
+
+    pip install nose
+
+    nosetests
+
+Tox
+***
+
+.. code-block:: shell
+
+    pip install tox
+
+    tox setup.py
+
 Notes
 -----
 
