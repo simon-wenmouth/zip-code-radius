@@ -7,3 +7,4 @@ dist
 *.pyo
 *.pyc
 __pycache__
+.tox
