@@ -1,11 +1,12 @@
+
 zip-code-radius
 ===============
 
-:info: Generate minimum sets of zip codes, based on a radius, that
-       can be used in a series of searches to cover the entire USA
+Generate minimum sets of zip codes, based on a radius, that
+can be used in a series of searches to cover the entire USA
 
 Features
-********
+--------
 
 * downloads an up-to-date reference set of US postal codes from 
   a repository hosted on ``github.com``
@@ -32,8 +33,11 @@ Usage
 
     print "radius: %d, zip-codes: %d" % (radius, len(results))
 
+Tests
+-----
+
 Unit Tests
-----------
+^^^^^^^^^^
 
 .. code-block:: shell
 
@@ -41,8 +45,10 @@ Unit Tests
 
     nosetests
 
+To run tox:
+
 Tox
-***
+^^^
 
 .. code-block:: shell
 
